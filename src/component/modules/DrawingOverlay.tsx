@@ -64,7 +64,7 @@ export function DrawingOverlay({
           <Path
             key={idx}
             d={pathToSvg(p.points)}
-            stroke={p.color} // ✅ each path keeps its chosen color
+            stroke={p.color}
             strokeWidth={3}
             fill="none"
             strokeLinecap="round"
